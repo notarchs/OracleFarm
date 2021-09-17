@@ -15,7 +15,7 @@ rconsoleclear()
 
 output([[CYAN|======================================================
 
-|WHITE|[|CYAN|Credits|WHITE|] Oracle PF Farm Beta
+|WHITE|[|CYAN|Credits|WHITE|] Oracle PF Farm Beta NIGGER
 
 |WHITE|[|CYAN|Credits|WHITE|] Made By not.archs#6666
 |WHITE|[|CYAN|Credits|WHITE|] Discord (OracleCheats): |LIGHT_GREEN|https://discord.gg/ZxmzWUDgY9
