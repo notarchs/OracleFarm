@@ -15,7 +15,7 @@ rconsoleclear()
 
 output([[CYAN|======================================================
 
-|WHITE|[|CYAN|Credits|WHITE|] Oracle PF Farm Beta NIGGER
+|WHITE|[|CYAN|Credits|WHITE|] Oracle PF Farm Beta
 
 |WHITE|[|CYAN|Credits|WHITE|] Made By not.archs#6666
 |WHITE|[|CYAN|Credits|WHITE|] Discord (OracleCheats): |LIGHT_GREEN|https://discord.gg/ZxmzWUDgY9
@@ -87,7 +87,7 @@ until (player.Character and player.Character:IsDescendantOf(workspace.Players)) 
 
 if attempts < 100 then
 	output("WHITE|[|CYAN|Oracle|WHITE|] Spawned In. Getting Targets...")
-    fastwait(2)
+    fastwait(0.1)
 	local validtargets, count = {}, 0
     for i, v in next, playertable do
 		if i:FindFirstChild("HumanoidRootPart") and v.Team ~= player.Team then
