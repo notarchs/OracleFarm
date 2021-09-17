@@ -23,6 +23,8 @@ output([[CYAN|======================================================
 |WHITE|[|CYAN|Credits|WHITE|] Based on another farm but it gone :(
 |WHITE|[|CYAN|Credits|WHITE|] Original Farm: |LIGHT_RED| Now Removed :(
 
+|WHITE|[|YELLOW|Warning|WHITE|] Shit unstable cuh	
+	
 |CYAN|======================================================
 ]])
 
