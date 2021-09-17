@@ -13,6 +13,8 @@ end
 
 rconsoleclear()
 
+rconsolename("Oracle PF Autofarm [beta]")
+
 output([[CYAN|======================================================
 
 |WHITE|[|CYAN|Credits|WHITE|] Oracle PF Farm Beta
