@@ -95,7 +95,7 @@ if attempts < 100 then
 		end
 	end
 	for i, v in next, validtargets do
-        if count == 4 or not (player.Character and player.Character:IsDescendantOf(workspace.Players)) then break end
+        if count == 5 or not (player.Character and player.Character:IsDescendantOf(workspace.Players)) then break end
         if playertable[i] then
 			output("WHITE|[|CYAN|Oracle|WHITE|] Target Found: " .. v.Name)
             network:send("newgrenade", "FRAG", {
