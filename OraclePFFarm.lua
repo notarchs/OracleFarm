@@ -113,7 +113,7 @@ if attempts < 100 then
 				} }
             })
             count = count + 1
-            fastwait(1)
+            fastwait(0.1)
         end
     end
 else
