@@ -133,7 +133,7 @@ output("WHITE|\n[|CYAN|Oracle|WHITE|] Teleporting To New Server...")
 
 player.OnTeleport:Connect(function(state)
     if state == Enum.TeleportState.Started then
-        (syn and syn.queue_on_teleport or queue_on_teleport)("loadstring(game:HttpGet('https://projectevo.xyz/releases/phantom_forces_autofarm.lua'))()")
+        (syn and syn.queue_on_teleport or queue_on_teleport)("loadstring(game:HttpGet('https://raw.githubusercontent.com/notarchs/OracleFarm/main/OraclePFFarm.lua'))()")
     end
 end)
 
