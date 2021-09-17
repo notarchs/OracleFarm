@@ -78,7 +78,7 @@ output("WHITE|[|CYAN|Oracle|WHITE|] Spawning In...")
 network:send("spawn")
 
 local attempts = 0
-repeat fastwait(0.1)
+repeat fastwait(2)
 	attempts = attempts + 1
 	if attempts % 20 == 0 then
 		network:send("spawn")
@@ -87,7 +87,7 @@ until (player.Character and player.Character:IsDescendantOf(workspace.Players)) 
 
 if attempts < 100 then
 	output("WHITE|[|CYAN|Oracle|WHITE|] Spawned In. Getting Targets...")
-    fastwait(0.1)
+    fastwait(1)
 	local validtargets, count = {}, 0
     for i, v in next, playertable do
 		if i:FindFirstChild("HumanoidRootPart") and v.Team ~= player.Team then
@@ -113,7 +113,7 @@ if attempts < 100 then
 				} }
             })
             count = count + 1
-            fastwait(0.1)
+            fastwait(1)
         end
     end
 else
